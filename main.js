@@ -32,6 +32,7 @@ class MyWorld extends World
 		};
 
 		let keyBindsArray = Object.values(this.keyBinds);
+		keyBindsArray.push("ArrowDown");
 
 		window.addEventListener("keydown", function(e)
 		{
