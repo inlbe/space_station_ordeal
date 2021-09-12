@@ -594,7 +594,8 @@ class GameGroup extends Spatial
 		let gridSquarePool = new GridSquarePool();
 		let gridPathPool = new GridPathPool();
 		let gridPathFinderPool = new GridPathFinderPool();
-		let collisionGrid = new CollisionGrid(world, 200, 200);
+		let collisionGrid = new CollisionGrid(world, 110, 110);
+
 		world.collisionGrid = collisionGrid;
 		
 		let mazeCreator = new MazeCreator(gridSquarePool, gridPathPool, gridPathFinderPool);
